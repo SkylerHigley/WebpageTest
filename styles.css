@@ -1,0 +1,153 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #0A3344; /* Text color */
+}
+
+header {
+    background-color: #FCF7E2; /* Header background color */
+    padding: 20px 0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #BEC0B3; /* Navigation bar background color */
+  padding: 20px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center-align the navigation items */
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+  display: inline; /* Display navigation items horizontally */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last navigation item */
+}
+
+nav ul li a {
+  color: #fff; /* Text color for navigation links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+  color: #F67D52; /* Text color on hover */
+}
+
+/* Logo styles */
+.logo {
+  text-align: center;
+  margin-bottom: 10px; /* Add some space below the logo */
+}
+
+.logo img {
+  max-height: 200px; /* Adjust the logo size as needed */
+}
+
+
+/* Section headings */
+h1, h2, h3 {
+    color: #0A3344; /* Heading text color */
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2EAEA9; /* Footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Welcome section styles */
+.welcome-section {
+    background-color: #FCF7E2; /* Welcome section background color */
+    padding: 50px 0;
+}
+
+.welcome-section .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcome-section .section-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.welcome-section .section-images img {
+    max-width: 300px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Chatbot button styles */
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F67D52; /* Chatbot button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Chatbot container styles */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+/* Chatbot header styles */
+.chatbot-header {
+    background-color: #F67D52; /* Chatbot header background color */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Chatbot close button styles */
+.chatbot-close {
+    float: right;
+    cursor: pointer;
+}
+
+/* Chatbot messages container styles */
+.chatbot-messages {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* User input styles */
+.user-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
